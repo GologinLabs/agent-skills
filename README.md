@@ -4,13 +4,19 @@ Installable Gologin skills for Codex-compatible skill managers.
 
 ## Installation Model
 
-CLI and skill are installed differently on purpose.
+CLI packages and skills are installed differently on purpose.
 
-CLI install:
+Skill install pattern:
 
 ```bash
-npm install -g gologin-web-access
+npx skills add GologinLabs/agent-skills@<skill-name>
 ```
+
+## Available Skills
+
+### gologin-web-access-skill
+
+Unified web access skill that combines Web Unlocker scraping and Cloud Browser interaction.
 
 Skill install:
 
@@ -18,36 +24,64 @@ Skill install:
 npx skills add GologinLabs/agent-skills@gologin-web-access-skill
 ```
 
-The CLI repository is:
+CLI install:
+
+```bash
+npm install -g gologin-web-access
+```
+
+CLI repo:
 
 - [GologinLabs/gologin-web-access](https://github.com/GologinLabs/gologin-web-access)
 
-The installable skill repository is:
+### gologin-webunlocker-skill
 
-- [GologinLabs/agent-skills](https://github.com/GologinLabs/agent-skills)
+Scraping-only skill built around the `gologin-webunlocker-sdk` package and `gologin-webunlocker` CLI.
 
-## Available Skills
-
-### gologin-web-access-skill
-
-Read webpages and interact with websites through Gologin Web Unlocker and Gologin Cloud Browser.
-
-Install:
+Skill install:
 
 ```bash
-npx skills add GologinLabs/agent-skills@gologin-web-access-skill
+npx skills add GologinLabs/agent-skills@gologin-webunlocker-skill
 ```
 
-Install globally without prompts:
+Package install:
 
 ```bash
-npx skills add GologinLabs/agent-skills@gologin-web-access-skill -g -y
+npm install gologin-webunlocker-sdk
 ```
+
+Optional CLI install:
+
+```bash
+npm install -g gologin-webunlocker-sdk
+```
+
+### gologin-agent-browser-skill
+
+Browser-only skill built around the `gologin-agent-browser-cli` package and `gologin-agent-browser` command.
+
+Skill install:
+
+```bash
+npx skills add GologinLabs/agent-skills@gologin-agent-browser-skill
+```
+
+CLI install:
+
+```bash
+npm install -g gologin-agent-browser-cli
+```
+
+CLI repo:
+
+- [GologinLabs/agent-browser](https://github.com/GologinLabs/agent-browser)
 
 ## Repository Layout
 
 Each installable skill lives in its own top-level folder:
 
 - `gologin-web-access-skill/`
+- `gologin-webunlocker-skill/`
+- `gologin-agent-browser-skill/`
 
 Future Gologin skills can be added as additional top-level folders in this repository.
