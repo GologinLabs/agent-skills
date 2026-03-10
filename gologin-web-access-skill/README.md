@@ -1,5 +1,27 @@
 # Gologin Web Access Skill
 
+## Install This Skill
+
+Install the skill with:
+
+```bash
+npx skills add GologinLabs/agent-skills@gologin-web-access-skill
+```
+
+Install the CLI separately with:
+
+```bash
+npm install -g gologin-web-access
+```
+
+The CLI repository is:
+
+- [GologinLabs/gologin-web-access](https://github.com/GologinLabs/gologin-web-access)
+
+The installable multi-skill repository is:
+
+- [GologinLabs/agent-skills](https://github.com/GologinLabs/agent-skills)
+
 ## Overview
 
 Gologin Web Access Skill gives AI agents and external developers one consistent interface for web scraping and browser automation through Gologin infrastructure:

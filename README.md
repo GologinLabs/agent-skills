@@ -2,6 +2,30 @@
 
 Installable Gologin skills for Codex-compatible skill managers.
 
+## Installation Model
+
+CLI and skill are installed differently on purpose.
+
+CLI install:
+
+```bash
+npm install -g gologin-web-access
+```
+
+Skill install:
+
+```bash
+npx skills add GologinLabs/agent-skills@gologin-web-access-skill
+```
+
+The CLI repository is:
+
+- [GologinLabs/gologin-web-access](https://github.com/GologinLabs/gologin-web-access)
+
+The installable skill repository is:
+
+- [GologinLabs/agent-skills](https://github.com/GologinLabs/agent-skills)
+
 ## Available Skills
 
 ### gologin-web-access-skill
