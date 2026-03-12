@@ -46,13 +46,19 @@ Standalone repo:
 
 - [GologinLabs/gologin-web-access-skill](https://github.com/GologinLabs/gologin-web-access-skill)
 
+Standalone install:
+
+```bash
+npx skills add GologinLabs/gologin-web-access-skill
+```
+
 CLI repo:
 
 - [GologinLabs/gologin-web-access](https://github.com/GologinLabs/gologin-web-access)
 
 ### gologin-agent-browser-skill
 
-Cloud Browser automation skill for live sessions, snapshots, refs, semantic find flows, and browser artifacts.
+Cloud Browser automation skill for live sessions, snapshots, refs, semantic find flows, tabs, cookies, storage state, and browser artifacts.
 
 Monorepo install:
 
@@ -63,6 +69,12 @@ npx skills add GologinLabs/agent-skills@gologin-agent-browser-skill
 Standalone repo:
 
 - [GologinLabs/gologin-agent-browser-skill](https://github.com/GologinLabs/gologin-agent-browser-skill)
+
+Standalone install:
+
+```bash
+npx skills add GologinLabs/gologin-agent-browser-skill
+```
 
 CLI repo:
 
@@ -84,7 +96,13 @@ Standalone repo:
 
 SDK repo:
 
-- [GologinLabs/gologin-webunlocker-sdk](https://github.com/GologinLabs/gologin-webunlocker-sdk)
+- [GologinLabs/gologin-webunlocker](https://github.com/GologinLabs/gologin-webunlocker)
+
+Standalone install:
+
+```bash
+npx skills add GologinLabs/gologin-scraping-skill
+```
 
 ### gologin-local-agent-browser-skill
 
@@ -99,6 +117,12 @@ npx skills add GologinLabs/agent-skills@gologin-local-agent-browser-skill
 Standalone repo:
 
 - [GologinLabs/gologin-local-agent-browser-skill](https://github.com/GologinLabs/gologin-local-agent-browser-skill)
+
+Standalone install:
+
+```bash
+npx skills add GologinLabs/gologin-local-agent-browser-skill
+```
 
 CLI repo:
 
