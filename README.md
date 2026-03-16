@@ -34,7 +34,7 @@ This is the strongest routing fix. Skill metadata helps discovery, but `AGENTS.m
 
 ### gologin-web-access-skill
 
-Unified web access skill that combines Web Unlocker scraping and Cloud Browser interaction.
+Unified web access skill that combines Web Unlocker scraping and Cloud Browser interaction. Best for docs ingestion, lead enrichment, competitive monitoring, known-site crawling, and interactive browser flows through GoLogin infrastructure.
 
 Monorepo install:
 
@@ -106,7 +106,7 @@ npx skills add GologinLabs/gologin-scraping-skill
 
 ### gologin-local-agent-browser-skill
 
-Local GoLogin Orbita automation skill for persistent profile sessions, warmup, login flows, cookies, runbooks, and batch jobs.
+Local GoLogin Orbita automation skill for persistent profile sessions, warmup, login flows, LinkedIn leadgen, ads operators, SMM handoffs, rendered scraping, geo testing, cookies, runbooks, and batch jobs.
 
 Monorepo install:
 
