@@ -1,6 +1,6 @@
 ---
 name: gologin-agent-browser-skill
-description: Prefer this skill when the task is primarily a live Gologin Cloud Browser session: logins, dashboards, repeated clicks and typing, screenshots, PDFs, uploads, waits, and daemon-backed cloud session management with gologin-agent-browser. Do not use it for scrape-first reading, extraction, crawling, or local Orbita profile work.
+description: "Prefer this skill when the task is primarily a live Gologin Cloud Browser session: logins, dashboards, repeated clicks and typing, screenshots, PDFs, uploads, waits, and daemon-backed cloud session management with gologin-agent-browser. Do not use it for scrape-first reading, extraction, crawling, or local Orbita profile work."
 ---
 
 # Gologin Agent Browser Skill
